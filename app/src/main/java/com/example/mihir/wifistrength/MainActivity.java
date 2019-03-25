@@ -45,7 +45,7 @@ import static java.lang.Thread.sleep;
 public class MainActivity extends AppCompatActivity {
 
     private TextView WifiInfo;
-    private TextView infoFromFile;
+    //private TextView infoFromFile;
     private ListView listView;
     private Button saveButton;
     private int size = 0;
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         WifiInfo = (TextView)findViewById(R.id.info);
-        infoFromFile = (TextView)findViewById(R.id.infoFromFile);
+        //infoFromFile = (TextView)findViewById(R.id.infoFromFile);
         saveButton = (Button)findViewById(R.id.saveButton);
         listView = (ListView)findViewById(R.id.wifiList);
         wifiManager = (WifiManager)getApplicationContext().getSystemService(WIFI_SERVICE);
@@ -82,25 +82,10 @@ public class MainActivity extends AppCompatActivity {
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, wifiList);
         listView.setAdapter(adapter);
         filepath = getExternalFilesDir("Wifi Strength Results").toString();
-        generateSavedFileList();
+        //generateSavedFileList();
 
     }
 
-    public void generateSavedFileList() {
-        //String path = filepath;
-        File directory = new File(filepath+"/");        //slash is very important, otherwise null pointer error
-        File[] files = directory.listFiles();
-        if(files.length!=0){
-            infoFromFile.setText("LIST OF SAVED FILES: \n\n");
-            for (int i = 0; i < files.length; i++)
-            {
-                infoFromFile.append(files[i].getName()+"\n");
-            }
-        }
-        else{
-            infoFromFile.setText("Saved files will be shown here...");
-        }
-    }
 
     public void getWifiInfo(View view) {
             WifiInfo.setText("");
@@ -231,7 +216,7 @@ public class MainActivity extends AppCompatActivity {
                                 }
                                 Toast.makeText(context, "File saved at "+filepath, Toast.LENGTH_SHORT).show();
                                 WifiInfo.setText("Information will appear here...");
-                                generateSavedFileList();
+                                //generateSavedFileList();
                             }
                         })
                 .setNegativeButton("Cancel",
@@ -262,57 +247,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void load(View view){
-
-        LayoutInflater li = LayoutInflater.from(context);
-        View promptsView = li.inflate(R.layout.prompts, null);
-
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
-                context);
-
-        // set prompts.xml to alertdialog builder
-        alertDialogBuilder.setView(promptsView);
-
-        final EditText userInput = (EditText) promptsView
-                .findViewById(R.id.editTextDialogUserInput);
-
-        // set dialog message
-        alertDialogBuilder
-                .setCancelable(false)
-                .setPositiveButton("OK",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog,int id) {
-                                FILE_NAME = userInput.getText().toString();
-                                String absolutePath = filepath+"/"+userInput.getText().toString();
-                                try {
-                                    FileInputStream fis = new FileInputStream(absolutePath);
-                                    DataInputStream in = new DataInputStream(fis);
-                                    BufferedReader br =
-                                            new BufferedReader(new InputStreamReader(in));
-                                    String strLine;
-                                    WifiInfo.setText(FILE_NAME+"\n\n");
-                                    while ((strLine = br.readLine()) != null) {
-                                        WifiInfo.append(strLine+"\n");
-                                    }
-                                    in.close();
-                                } catch (IOException e) {
-                                    e.printStackTrace();
-                                }
-                            }
-                        })
-                .setNegativeButton("Cancel",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog,int id) {
-                                dialog.cancel();
-                            }
-                        });
-        // create alert dialog
-        AlertDialog alertDialog = alertDialogBuilder.create();
-        // show it
-        alertDialog.show();
-    }
 
     public void stopInfo(View view) {
         stop=1;
+    }
+
+    public void viewSaved(View view) {
+        Intent intent = new Intent(getApplicationContext(), Load.class);
+        startActivity(intent);
+
     }
 }
