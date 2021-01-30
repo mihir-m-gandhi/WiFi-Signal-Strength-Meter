@@ -43,8 +43,7 @@
     ```sh
         $ git clone https://github.com/mihir-m-gandhi/WiFi-Signal-Strength-Meter
     ```
-    * Make sure you have the target SDK (27) as specified in gradle file installed. 
-
+ 
 ------------------------------------------
 ### Author
 Mihir Gandhi - [mihir-m-gandhi](https://github.com/mihir-m-gandhi)
