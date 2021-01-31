@@ -36,7 +36,7 @@
 ------------------------------------------
 ### Installation
 * For Usage
-  Just download the apk and install it on your device. 
+    * Just download the apk and install it on your device. 
   
 * For Development
     * Clone the repo
