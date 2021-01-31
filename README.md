@@ -47,7 +47,7 @@
 ------------------------------------------
 ### Installation
 * For Usage
-    * Just download the apk and install it on your device. 
+    * Just download the `Wifi Signal Strength Meter.apk` from `apk` folder and install it on your device. 
   
 * For Development
     * Clone the repo
