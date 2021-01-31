@@ -31,6 +31,7 @@
 - `Save the results` : Store the details of the network and the entire signal strength log in a txt file for future reference.
 - `Load a saved file` : Load a previously saved log file from within the app itself.
 
+
 <p align="center">
   <a href="" rel="noopener">
  <img height=200px src="./wifi-strength.png" alt="WiFi Strength Meter"></a>
