@@ -40,7 +40,7 @@
 ------------------------------------------
 ### Demo
 <p align="center">
-    <img width=280px height=500px src="./Demo.gif">
+    <img width=360px height=640px src="./Demo.gif">
 </p>
 
 
