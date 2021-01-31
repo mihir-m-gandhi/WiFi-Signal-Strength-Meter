@@ -34,7 +34,7 @@
 
 <p align="center">
   <a href="" rel="noopener">
- <img height=300px src="./wifi-strength.png" alt="WiFi Strength Meter"></a>
+ <img height=250px src="./wifi-strength.png" alt="WiFi Strength Meter"></a>
 </p>
 
 ------------------------------------------
