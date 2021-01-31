@@ -40,14 +40,15 @@
 ------------------------------------------
 ### Demo
 <p align="center">
-    <img src="./Demo.gif">
+    <img width=140 height=250px src="./Demo.gif">
 </p>
 
 
 ------------------------------------------
 ### Installation
 * For Usage
-    * Just download the `Wifi_Signal_Strength_Meter.apk` and install it on your device. 
+    * Download the `Wifi_Signal_Strength_Meter.apk` and install it on your device. 
+    * Grant 'Storage' and 'Location' permission to the app.
   
 * For Development
     * Clone the repo
