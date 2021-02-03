@@ -47,7 +47,7 @@
 ------------------------------------------
 ### Installation
 * For Usage
-    * Download the `Wifi_Signal_Strength_Meter.apk` and install it on your device. 
+    * Download the [`Wifi_Signal_Strength_Meter.apk`](./Wifi_Signal_Strength_Meter.apk) and install it on your device. 
     * Grant 'Storage' and 'Location' permission to the app.
   
 * For Development
