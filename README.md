@@ -27,7 +27,7 @@
 
 - `Detect nearby WiFi networks` : Get a list of nearby WiFi networks. WiFi will be turned on automatically when you open the app. Turn on Location on your device and press 'SCAN'.
 - `Get details of the connected WiFI network` : Connect to a WiFi network and press 'GET INFO' to get the details of the network such as Network id, SSID, BSSID, Link Speed, Frequency, and IP address.
-- `Measure signal strength` : The app displays the signal strength of the network to which the device is connected every second for a period of 60 seconds i.e. 1 minute and the average signal strength at the end of 1 minute. The signal measurement is not converted to %, and you get raw data in <strong>dBm</strong>. dBm is typically expressed as a negative number. The closer to zero the reading is, the stronger the signal. So for example, -79 dBm is a stronger signal than -88 dBm.
+- `Measure signal strength` : The app displays the signal strength of the network to which the device is connected every second for a period of 1 minute or until you press 'Stop'. The average signal strength at the end of 1 minute is also displayed. The signal measurement is not converted to %, and you get raw data in <strong>dBm</strong>. dBm is typically expressed as a negative number. The closer to zero the reading is, the stronger the signal. So for example, -79 dBm is a stronger signal than -88 dBm.
 - `Save the results` : Store the details of the network and the entire signal strength log in a txt file for future reference.
 - `Load a saved file` : Load a previously saved log file from within the app itself.
 
