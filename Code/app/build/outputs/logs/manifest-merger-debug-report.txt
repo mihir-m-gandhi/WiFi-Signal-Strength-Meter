@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:2:1-30:12
 MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/816abf6fe385251a5ee6b372631797cf/appcompat-v7-27.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/63d4bbf4a9f3b2e5af821de28699db07/constraint-layout-1.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:27.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/85163a685082676ea5f33a0e1b5c661c/support-fragment-27.0.0/AndroidManifest.xml:17:1-22:12
@@ -13,91 +13,91 @@ MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/mihir/.g
 MERGED from [com.android.support:support-core-ui:27.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/eed82155157fca62f83e3dcfc41c6887/support-core-ui-27.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/07979b8ab8a0adb2b4d417808fe78a9e/support-compat-27.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/940f5e7524450f821fdfed84e74cdc3a/runtime-1.0.0/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:3:5-45
-		INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:2:1-30:12
-		INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:2:1-30:12
-		INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:5:5-76
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:5:5-76
 	android:name
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:5:22-73
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:5:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:6:5-76
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:6:5-76
 	android:name
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:6:22-73
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:6:22-73
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:7:5-81
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:8:5-79
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:8:22-76
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:8:22-76
 uses-permission#android.permission.INTER
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:9:5-64
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:9:5-64
 	android:name
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:9:22-61
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:9:22-61
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:10:5-81
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:10:22-78
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:11:5-80
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:11:22-77
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:11:22-77
 application
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:13:5-28:19
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:13:5-28:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/63d4bbf4a9f3b2e5af821de28699db07/constraint-layout-1.1.0/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/63d4bbf4a9f3b2e5af821de28699db07/constraint-layout-1.1.0/AndroidManifest.xml:9:5-20
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/940f5e7524450f821fdfed84e74cdc3a/runtime-1.0.0/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/940f5e7524450f821fdfed84e74cdc3a/runtime-1.0.0/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:18:9-35
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:16:9-41
 	android:roundIcon
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:17:9-54
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:19:9-40
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:19:9-40
 activity#com.example.mihir.wifistrength.MainActivity
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:20:9-26:20
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:20:19-47
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:20:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:24:27-74
 activity#com.example.mihir.wifistrength.Load
-ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:27:9-51
+ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:27:9-51
 	android:name
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml:27:19-39
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml:27:19-39
 uses-sdk
-INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
-INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/816abf6fe385251a5ee6b372631797cf/appcompat-v7-27.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/816abf6fe385251a5ee6b372631797cf/appcompat-v7-27.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/63d4bbf4a9f3b2e5af821de28699db07/constraint-layout-1.1.0/AndroidManifest.xml:5:5-7:41
@@ -116,16 +116,16 @@ MERGED from [com.android.support:support-compat:27.0.0] /Users/mihir/.gradle/cac
 MERGED from [com.android.support:support-compat:27.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/07979b8ab8a0adb2b4d417808fe78a9e/support-compat-27.0.0/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/940f5e7524450f821fdfed84e74cdc3a/runtime-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/940f5e7524450f821fdfed84e74cdc3a/runtime-1.0.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
-INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mihir/Downloads/Code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mihir/Documents/WiFi-Signal-Strength-Meter/Code/app/src/main/AndroidManifest.xml
 meta-data#android.arch.lifecycle.VERSION
 ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/mihir/.gradle/caches/transforms-2/files-2.1/940f5e7524450f821fdfed84e74cdc3a/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
 	android:value
