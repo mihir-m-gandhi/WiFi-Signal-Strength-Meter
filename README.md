@@ -55,7 +55,8 @@
     ```sh
         $ git clone https://github.com/mihir-m-gandhi/WiFi-Signal-Strength-Meter
     ```
- 
+    * Open `Code` folder in Android Studio.
+    
 ------------------------------------------
 ### Author
 Mihir Gandhi - [mihir-m-gandhi](https://github.com/mihir-m-gandhi)
