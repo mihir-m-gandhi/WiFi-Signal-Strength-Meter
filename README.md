@@ -1,6 +1,5 @@
 <p align="center">
-  <a href="" rel="noopener">
- <img height=150px src="./wifi.png" alt="WiFi"></a>
+ <img height=150px src="./wifi.png" alt="WiFi">
 </p>
 
 <h1 align="center">Wifi Signal Strength Meter</h1>
